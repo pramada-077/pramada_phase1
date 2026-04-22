@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: white;
+    padding: 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 50px;
+}
+
+/* FLEXBOX */
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    background: lightblue;
+    padding: 40px;
+    margin: 10px;
+    flex: 1;
+    text-align: center;
+}
+
+/* FORM */
+.form-section {
+    padding: 40px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    background: #333;
+    color: white;
+    border: none;
+}
+
+/* 📱 MEDIA QUERY */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+}
