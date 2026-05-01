@@ -2,22 +2,32 @@
     font-family:Arial;
 }
 
-.block{
-                display:block;
+.block{         
+                margin: 100px 50px;
                 background:lightblue;
 }
-
+.display{
+                background-color: lightgray;
+                margin-bottom: 30px;
+}
 .inline{
-                display:inline;
-                background:pink;
+               padding: 1rem;
+               background-color: aqua;
+               color: blue; 
 }
 
 .inline-block{
-                display:inline-block;
+            
                 background:lightgreen;
-                width:200px;
+            
 }
-
+.main{
+    display: inline-block;
+    background-color: antiquewhite;
+    color: blue;
+    margin-top: 50px;
+    padding:4rem ;
+}
 .hidden{
-    display:none;
+           display: none;
 }
